@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class bank_management_system {
     static Scanner var1=new Scanner(System.in);
-    static String name;
-    static double account_balance,account_no;
-    static double withdraw,deposit,check_balance;
+    static String name,account_no;
+    static double account_balance;
+    static double withdraw,deposit;
     static void input_data()
     {
         System.out.print("enter the name:");
         name=var1.nextLine();
         System.out.print("enter the account number:");
-        account_no=var1.nextDouble();
+        account_no=var1.nextLine();
         System.out.print("enter the ammount of the account:");
         account_balance=var1.nextDouble();
     }
