@@ -1,7 +1,8 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class stopwatch {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException,IOException {
         Scanner var1 = new Scanner(System.in);
         int H = 0, M = 0, S = 0;
         System.out.println("\t\tSTOPWATCH");
@@ -40,5 +41,3 @@ public class stopwatch {
         var1.close();
     }
 }
-
-
